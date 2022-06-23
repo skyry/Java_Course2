@@ -14,7 +14,7 @@ public class Test2 {
         emp.add(emp2);
         emp.add(emp3);
         System.out.println("Before sorting \n" + emp);
-        System.out.println(Collections.sort(emp,Comparable<Employee>));
+        System.out.println(Collections.sort(emp,Comparable<>));
 
     }
 }
