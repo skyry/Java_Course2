@@ -9,12 +9,13 @@ public class Test2 {
         List<Employee> emp = new ArrayList<>();
         Employee emp1 = new Employee(100, "Serhii", "Kyrylenko", 6000);
         Employee emp2 = new Employee(51, "Petro", "Ivanov", 1000);
-        Employee emp3 = new Employee(123, "Victor", "Fedko", 2000);
+        Employee emp3 = new Employee(123, "Alex", "Fedko", 2000);
         emp.add(emp1);
         emp.add(emp2);
         emp.add(emp3);
         System.out.println("Before sorting \n" + emp);
-        System.out.println(Collections.sort(emp,Comparable<>));
+        Collections.sort(emp);
+        System.out.println("After sorting \n" + emp);
 
     }
 }
@@ -32,6 +33,7 @@ class Employee implements Comparable<Employee> {
         this.salary = salary;
     }
 
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -44,7 +46,15 @@ class Employee implements Comparable<Employee> {
 
     @Override
     public int compareTo(Employee o) {
-        return 0;
+//        if (this.id > o.id) {
+//            return 1;
+//        } else if (this.id == o.id) {
+//            return 0;
+//        } else {
+//            return -1;
+//        }
+//        return this.id - o.id;
+        return this.name.compareTo(o.name);
     }
 }
 
