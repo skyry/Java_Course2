@@ -1,3 +1,4 @@
+/*
 package comparation;
 
 import java.util.ArrayList;
@@ -5,7 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Test2 {
+public class Test2_1 {
     public static void main(String[] args) {
         List<Employee> emp = new ArrayList<>();
         Employee emp1 = new Employee(100, "Serhii", "Kyrylenko", 6000);
@@ -15,17 +16,13 @@ public class Test2 {
         emp.add(emp2);
         emp.add(emp3);
         System.out.println("Before sorting \n" + emp);
-        Collections.sort(emp);
-        System.out.println("After sorting ID \n" + emp);
-        Collections.sort(emp,new NameComparator());
-        System.out.println("After sorting Name \n" + emp);
         Collections.sort(emp,new SalaryComparator());
-        System.out.println("After sorting Salary\n" + emp);
+        System.out.println("After sorting \n" + emp);
 
     }
 }
 
-class Employee implements Comparable<Employee> {
+class Employee {
     int id;
     String name;
     String surname;
@@ -49,21 +46,23 @@ class Employee implements Comparable<Employee> {
                 '}';
     }
 
+
+}
+
+class IdComparator implements Comparator<Employee>{
     @Override
-    public int compareTo(Employee o) {
-        if (this.id > o.id) {
+    public int compare(Employee emp1, Employee emp2) {
+        if (emp1.id > emp2.id) {
             return 1;
-        } else if (this.id == o.id) {
+        } else if (emp1.id == emp2.id) {
             return 0;
         } else {
             return -1;
         }
-//        return this.id - o.id;
-//        return this.name.compareTo(o.name);
     }
 }
 
-class NameComparator implements Comparator<Employee> {
+class NameComparator implements Comparator<Employee>{
     @Override
     public int compare(Employee emp1, Employee emp2) {
       return emp1.name.compareTo(emp2.name);
@@ -75,4 +74,4 @@ class SalaryComparator implements Comparator<Employee>{
     public int compare(Employee emp1, Employee emp2) {
         return emp1.salary - emp2.salary;
     }
-}
+}*/
