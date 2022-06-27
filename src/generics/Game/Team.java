@@ -4,28 +4,29 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Team {
+public class Team<T extends Participant> {
     private String name;
-    private List<Participant> participants = new ArrayList<>();
+    private List<T> participants = new ArrayList<>();
 
-    public Team(String name, List<Participant> participants) {
+    public Team(String name) {
         this.name = name;
-        this.participants = participants;
     }
 
-    public void addNewParticipants(Participant participant){
+    public void addNewParticipants(T participant) {
         participants.add(participant);
-        System.out.println("In command "+ name+ " add new participant"+ participant.getName());
+        System.out.println("In command: " + name + " add new participant: " + participant.getName());
     }
 
-    public void playWith(Team team){
-        String winnerName;
+    public void playWith(Team<T> team) {
+        //String winnerName = null;
         Random r = new Random();
-        int i = r.nextInt(2);
-        if (i==0){
-            winnerName = this.name;
+        int i = r.nextInt(3);
+        if (i == 0) {
+            System.out.println("Winner command: " + this.name);
+        } else if (i == 1) {
+            System.out.println("Winner command: " + team.name);
+        } else {
+            System.out.println("Draw");
         }
-        else winnerName = team.name;
-        System.out.println("Winner: " + winnerName);
     }
 }
