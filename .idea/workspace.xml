@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b411a370-1c04-4cca-863b-9dd4c7df88b9" name="Changes" comment="26.06.2022">
-      <change afterPath="$PROJECT_DIR$/src/generics/Game/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/Game/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/Game/Schoolar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/Game/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/Game/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/Game/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/ParameterizedMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/ParameterizedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/ParameterizedClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/ParameterizedClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/ParameterizedClass2.java" afterDir="false" />
-    </list>
+    <list default="true" id="b411a370-1c04-4cca-863b-9dd4c7df88b9" name="Changes" comment="26.06.2022" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656250646937</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="26.06.2022">
+      <created>1656274018167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656274018167</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
