@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b411a370-1c04-4cca-863b-9dd4c7df88b9" name="Changes" comment="27.06.2022">
-      <change afterPath="$PROJECT_DIR$/src/collection/ArrayListEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/ArrayListMethods1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/ArrayListMethods2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Game/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/Game/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Game/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/Game/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListMethods1">
+  <component name="RunManager" selected="Application.ArrayListMethods2">
     <configuration name="ArrayListEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.ArrayListEx1" />
       <module name="Java_Course2" />
@@ -75,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterizedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.ParameterizedClass" />
+    <configuration name="ArrayListMethods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ArrayListMethods2" />
       <module name="Java_Course2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListMethods2" />
         <item itemvalue="Application.ArrayListMethods1" />
         <item itemvalue="Application.ArrayListEx1" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.ParameterizedClass" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656350407097</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="27.06.2022">
+      <created>1656361749532</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656361749532</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
